@@ -1,17 +1,18 @@
-# homesphere
+# HomeSphere (Flutter)
 
-A new Flutter project.
+A simple Flutter real-estate demo app (UI + basic Firestore auth & data examples).  
+This repository contains the app UI, screens, and client logic — **sensitive configuration and credentials are intentionally kept out of this public repo**.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
-Developed by Priyank(Clueless Tech)
-Isha - Real Estate System
-A few resources to get you started if this is your first Flutter project:
+- Flutter UI for listing & viewing properties  
+- Authentication flows (email/password) via Firebase Auth (client-side logic in `auth.dart` — kept private in this repo)  
+- Chat & admin screens (UI)  
+- Wishlist, property CRUD UI examples
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Requirements
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Flutter SDK (stable channel)  
+- Dart  
+- An Android or iOS device / emulator  
+- Firebase project (for authentication and Firestore)
