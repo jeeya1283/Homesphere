@@ -1,0 +1,60 @@
+########################################
+# FLUTTER & DART
+########################################
+build/
+.dart_tool/
+.packages
+.pub-cache/
+.pub/
+
+# Generated plugin files
+.flutter-plugins
+.flutter-plugins-dependencies
+
+########################################
+# IDE & SYSTEM FILES
+########################################
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+########################################
+# SECRETS / PRIVATE FILES (DO NOT UPLOAD)
+########################################
+
+# Your sensitive files
+main.dart
+auth.dart
+.env
+*.env
+
+# Firebase sensitive configuration
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+
+########################################
+# LOCAL DATABASE / CACHE
+########################################
+*.db
+*.sqlite
+*.bak
+
+########################################
+# LOG FILES
+########################################
+*.log
+
+########################################
+# ANDROID / IOS GENERATED
+########################################
+android/app/debug
+android/app/profile
+android/app/release
+ios/Pods/
+ios/.symlinks/
+
+# Gradle cache
+.gradle/
+*.iml
