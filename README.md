@@ -16,3 +16,8 @@ This repository contains the app UI, screens, and client logic — **sensitive c
 - Dart  
 - An Android or iOS device / emulator  
 - Firebase project (for authentication and Firestore)
+
+## Team Members
+
+- **Jiya Roy**
+- **Foram Tarsariya** 
