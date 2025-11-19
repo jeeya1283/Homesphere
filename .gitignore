@@ -1,0 +1,30 @@
+# Flutter
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# IDE
+.vscode/
+.idea/
+*.iml
+
+# System
+.DS_Store
+Thumbs.db
+
+# Secrets
+.env
+*.env
+google-services.json
+GoogleService-Info.plist
+firebase_options.dart
+main.dart
+auth.dart
+
+# Databases
+*.db
+*.sqlite
+
+# Logs
+*.log
