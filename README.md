@@ -1,17 +1,56 @@
-# homesphere
+# HomeSphere (Flutter)
 
-A new Flutter project.
+A simple Flutter real-estate demo app (UI + basic Firestore auth & data examples).  
+This repository contains the app UI, screens, and client logic — **sensitive configuration and credentials are intentionally kept out of this public repo**.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
-Developed by Priyank(Clueless Tech)
-Isha - Real Estate System
-A few resources to get you started if this is your first Flutter project:
+## Contents
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This repository contains the following safe-to-publish source files (UI & app logic):
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- `addProperty.dart`  
+- `admin_chat_list.dart`  
+- `chat_page.dart`  
+- `detail_page.dart`  
+- `home_page.dart`  
+- `login_page.dart`  
+- `profile.dart`  
+- `properties.dart`  
+- `sign_up_page.dart`  
+- `viewProperty.dart`  
+- `wishlist.dart`  
+- `AndroidManifest.xml`  
+- `pubspec.yaml`  
+
+> ⚠️ **Do not commit** `main.dart`, `auth.dart`, `.env`, `google-services.json`, or `GoogleService-Info.plist` — these files contain sensitive keys or project configuration and are listed in `.gitignore`.
+
+---
+## Team Members
+  
+- **Jiya Roy**
+- **Foram Tarsariya**
+
+---  
+## Demo screenshot
+
+<img width="370" height="788" alt="Capture2" src="https://github.com/user-attachments/assets/d4852b8f-5794-4e8d-8725-bc65e425a24d" />
+<img width="732" height="756" alt="Capture" src="https://github.com/user-attachments/assets/d70cbde5-6540-4ba6-8325-250edabee549" />
+
+---
+
+## Features
+
+- Flutter UI for listing & viewing properties  
+- Authentication flows (email/password) via Firebase Auth (client-side logic in `auth.dart` — kept private in this repo)  
+- Chat & admin screens (UI)  
+- Wishlist, property CRUD UI examples
+
+---
+
+## Requirements
+
+- Flutter SDK (stable channel)  
+- Dart  
+- An Android or iOS device / emulator  
+- Firebase project (for authentication and Firestore) — see **Setup** below
